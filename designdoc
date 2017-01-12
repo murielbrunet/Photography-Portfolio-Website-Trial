@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="project1css.css"/>
+</head>
+
+<body>
+	<p id = "title" > MAY ALLISON </p>
+	<ul class="navbar">
+		<li><a href="home.html">HOME</a></li>
+		<li><a href="gallery.html" >GALLERY</a></li>
+		<li><a href="about.html">ABOUT</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+		<li><a href="Designdoc.html" class="current">DESIGN DOCUMENT</a></li>
+	</ul>
+<h1> Design Document </h1> 
+
+<p><b>Purpose</b></br>
+	The purpose was to design a website for an imaginary photographer that would display their work in an elegant fashion and could be easily navigated so that people would be interested in the photographs being presented. The galleries are the main focus of the website, but any viewers are able to contact the photographer as well. 
+</p>
+
+<p><b>Major Design Points</b></br>
+We used two main colors in our design, white for the text and black for the backgrounds. These neutral colors highlight the bright pictures found on the home page, the gallery page, and the individual gallery pages.The layout we used is very streamlined, where the border of the introductory page is repeated in elements of the other pages. The border shows up around headings and the circles of the home page. The navigation bar is displayed along the top of the page right underneath the title of the page. However, in the galleries we sometimes could not make the navigation bar appear directly inline under the text because we couldn’t figure out how to center it correctly; centering was actually one of the greatest challenges we met in creating this website. We used white-space between the circles of the galleries. The pictures of the galleries float in white space, and the navbar stays connected with the use of whitespace as well. Navigation of the pages begins when the user clicks the title on the introductory page which leads them to the home page. From there, they are able to navigate between the different galleries when they click on circles, the contact page, and the about page which appear in the navigation bar. The about page also includes the link to the design document. The navbars consistency along the top of the page, helps the user navigate the site easily. There is clear interaction between the site and the client when they hover over the circles on the gallery, and they are able to see which gallery they are choosing by the fact that the background goes black and the title of the gallery appears. Otherwise the user has a form they can complete to contact the fictional May Allison in the contact page. We are particularly proud of the use of circles because of the way it changes the mood of the website compared to regular photography sites that often use squares. 
+</p>
+
+<p><b>Style Sheets</b></br>
+We used one style sheet for the entire website, and through the IDs and the classes we identified specific elements of the website such as the different headings, different renderings of navigation bars, difference can be seen in the navigation bar of the individual galleries and the rest of the website. Other small bits to be encased in divs. For example, the font of the form input used a dive. We used the classes and inheritance to make sure all the circles were designed the same and centered.Because of the use of different classes and ids, we could use only one style sheet for the whole website and change the rendering of these elements with slight modifications to the css. The style sheet also defines the rendering of the circles displayed on the home-page, and the pictures that show up inside of these circles. 
+
+</p>
+
+<p><b>Navigation Aids</b></br>
+	We used a couple of different navigation aids. Our main one was the navigation bar, which we put under the main title of the page on every page. The home page is the one you see once you’ve entered past the introduction page. You can click this link to return to the main galleries at any point from the site. We also added a Contact and About page on the navbar. In order to make navigation easier for the user, we underlined the title of the page the user was visiting in the navbar so they knew their current location in relation to the other pages. Furthermore, we added an underline when a user scrolls over another element on the navbar to show that these were clickable links leading to other pages. The other navigation aids we added were for selecting which galleries to visit. If you scroll over one of the circles on the home/main gallery page, the image within the circle disappears giving way to the title of the gallery. Each of these circles can be clicked to enter specific galleries. 
+</p>
+
+<p><b>Structured Layout</b></br>
+Since our website is designed to showcase photography, we added an introduction page before entering the website. This is a common design tool used by many artist websites. We were particularly influenced by Ella Barnes’s website<a href = "http://www.ellabarnesart.com/"/>, a student photographer from NYU. We then decided on a main page of galleries to show all the galleries to visit on one page. Throughout the website, we keep the same elements of a title with a rectangular border with the navigation bar right below it and a black background. We really like the circles idea and incorporated in into the About page as well, in order to keep a theme going throughout website. We designed the website so that a user will start at the home/main gallery page and then move to individual galleries, always returning to the main page before entering a different gallery. Finally, we added this design document in the About page because it seemed to be most logical this way. We use a side scroll for the images in the individual galleries to allow the user to see the full size image on one page, rather than a vertical scroll that can cut off images making viewing more difficult.
+
+</p>
+
+<p><b>Javascript</b></br>
+	The javascript we used worked with the circles on the home page in order to change them from the bright lit pictures to a black background with white text showing the gallery titles. These design imitates the title and navbar in the pages in font and style. Initially we were hoping to use opacity for the circles when the user would hover over them, however, this changed the color of the text and made it very difficult to read. This final design works a lot better in the final scheme of the website. 
+</p>
+
+<p><b>Links</b></br>
+
+</p>
+
+<p><b>Images</b></br>
+Since our website was designed specifically for photography, it is heavily image based. In order to really accentuate the content, we decided to stick to a black background that would make the images pop. Adding a white border around the images made them stand out every more. Within the galleries, we used a side scroll so that users can easily scroll along the images and view several at once. All of our images are from our own travels. 
+
+</p>
+
+
+
+
+
+
+
+</body>
+</html>		

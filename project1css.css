@@ -1,0 +1,291 @@
+﻿body {
+	background-color: black;
+	color:white;
+	font-family:Verdana;
+	background-color: black;
+/*	background-image: url('images/ryokan.jpg');
+	background-size: 100%;
+*/
+}
+
+body.home{
+	float:center;
+	display:inline;
+	background-image: url('images/home.jpg');
+	background-size: 100%;
+}
+
+/*
+h1 {
+	font-family: Agency FB;
+	color: white;
+	text-align: center;
+	border-style: groove;
+	position: relative;
+	margin-top: 100px;	
+	margin-left: 500px;
+	margin-right: 500px;
+}
+*/
+h2 {  
+	font-family: Agency FB;
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-weight: 100;
+	border-style: groove;
+	margin: 20%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 20px;
+}
+
+
+.circlesText {
+	color:white;
+}
+#title {
+	text-align: center;
+	font-family: Agency FB;
+	color: white;
+	font-size: 60px;	
+	font-weight: 100;
+	border-style:groove;
+	margin-top: 40px;	
+	margin-left: 500px;
+	margin-right: 500px;
+	padding: 20px;
+
+/*	display: inline-block;
+	margin: 0px;
+	margin-top:2%;
+	padding: 10px;
+	
+*/
+}
+
+h2 a {
+	color:white;
+	text-decoration:none;
+}
+
+
+/*
+ul.navbar{
+
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+	float:right;
+}
+
+a:link, a:visited.navbar {
+    display: block;
+    color: black;
+	background-color:white;
+    width: 20%;
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active.navbar {
+    text-decoration: underline;
+}
+*/
+/*
+ul.navbar {
+	padding-bottom: 15px;
+	text-align: center;
+	float:right;
+	list-style-type:none;
+	display:block;
+}
+
+ul.navbar li a:link{
+	font-family: Agency FB;
+	float: right;
+	display: block;
+	padding: 1%;
+	background-color:white;
+	color:black;
+	font-size:large;
+	width:130px;	
+}
+*/
+li a:hover {
+	
+	text-decoration: underline;
+}
+/*
+li a:active {
+	
+	text-decoration: underline;
+}
+*/
+li a{
+	color: black;
+	text-decoration:none;	
+}
+a.current {
+	text-decoration: underline;
+}
+
+ul.navbar2 {
+
+	padding: 15px;
+	text-align: center;
+	list-style-type:none;
+	top: 20px;
+}
+
+ul.navbar2 li {
+	font-family: Agency FB;
+	display: inline;
+	padding: 1%;
+	background-color:white;
+	color:black;
+	font-size:large;
+	width:130px;
+}
+
+.circles {
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+
+
+
+#circle1, #circle2, #circle3, #circle4, #circle5, #circle6, #circle7 {
+	position: relative;
+	float: left;
+	display: inline;
+	border: solid;
+	border-width: 5px;
+	width: 255px;
+	height: 255px;
+	border-radius: 50%;
+	font-family: Agency FB;
+	font-size: 30px;
+	color: white;
+	
+	text-align: center;
+	line-height: 255px;
+	background-size: 150%;
+	margin: 40px;
+
+}
+
+#circle1 {
+	background-image: url('images/ryokan.jpg');
+}
+
+#circle2 {
+	background-image: url('images/flour.jpg');
+}
+
+#circle3 {
+	background-image: url('images/lawnMower.jpg');
+}
+
+#circle4 {
+	background-image: url('images/franceApt.jpg');
+}
+
+#circle5 {
+	background-image: url('images/ryokanTable.jpg');
+}
+
+#circle6 {
+	background-image: url('images/umbrella.jpg');
+}
+
+
+p {
+	text-align: center;
+	margin: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+p.bigger {
+	font-family: Agency FB;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+
+/* Gallery 2 side scrolling */
+
+table {
+	margin: 0px;
+	margin-top: 200px;
+	color: black;
+}
+
+tr td{
+	padding: 20px;
+	color: black;
+
+}
+
+#galleryTitle {
+	position:fixed;
+	top:0;
+	font-family: Agency FB;
+	font-size: 60px;
+	font-weight: 100;
+	border: solid;
+	padding: 20px;
+	margin-top: 20px;	
+	margin-left: 42%;
+}
+ul.navbar3 {
+	
+	position:fixed;
+	margin-left: 33%;
+	padding: 15px;
+	text-align: center;
+	list-style-type:none;
+	margin-top: -50px;
+	width:400px;
+}
+
+ul.navbar3 li {
+
+	font-family: Agency FB;
+	display: inline;
+	padding: 10px;
+	background-color:white;
+	color:black;
+	font-size:large;
+	
+}
+.formPadding{
+	padding:30px;
+}
+
+.input {
+	font-family: Verdana;
+}
+h3 {
+	font-family: Verdana;
+	text-align: center;
+}
+/*
+.content {
+	top:400px;
+}
+*/
